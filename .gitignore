@@ -1,0 +1,63 @@
+# === Python & Jupyter ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+.ipython/
+
+# === Deep Learning & Machine Learning (Datasets & Weights) ===
+# 避免将庞大的数据集和模型权重推送到 Git
+data/
+dataset/
+datasets/
+raw_data/
+processed_data/
+*.zip
+*.tar.gz
+*.rar
+*.gz
+*.7z
+*.csv
+*.tsv
+*.h5
+*.hdf5
+*.npy
+*.npz
+
+# 深度学习模型权重/检查点
+checkpoints/
+saved_models/
+runs/
+*.pt
+*.pth
+*.ckpt
+*.pb
+*.onnx
+*.weights
+*.pkl
+*.pickle
+
+# === IDEs & Editors ===
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
+
+# === Logs & System Files ===
+logs/
+*.log
+.DS_Store
+Thumbs.db
+desktop.ini
